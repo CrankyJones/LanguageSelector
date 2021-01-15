@@ -15,10 +15,45 @@
     <form id="formCode">
       <h4 class="questions">What is your favorite animal from this list?</h4>
       <select class="form-control" id="animal">
-        <option>Songbird</option>
-        <option>Snake</option>
-        <option>Hedgehog</option>
+        <option value="1">Songbird</option>
+        <option value="2">Snake</option>
+        <option value="3">Hedgehog</option>
+        <option value="50">Mouse</option>
       </select>
+      <h4 class="questions">Are you afraid of snakes?</h4>
+      <div class="radio">
+        <label>
+          <input type="radio" name="snakes" value="0" checked>
+          Yes
+        </label>
+      </div>
+      <div class="radio">
+        <label>
+          <input type="radio" name="snakes" value="10" checked>
+          No
+        </label>
+      </div>
+      
+      
+      
+      <h4 class="questions">Gotta go fast?</h4>
+      <div class="radio">
+        <label>
+          <input type="radio" name="fast" value="20" checked>
+          Yes
+        </label>
+      </div>
+      <div class="radio">
+        <label>
+          <input type="radio" name="fast" value="0" checked>
+          No
+        </label>
+      </div>
+      <div class="form-group">
+        <label for="color">What is your favorite color?</label>
+        <input id="color" class="form-control" type="color">
+      </div>
+      <button type="submit" class="btn btn-primary"> Get Results</button>
     </form>
   </div>
 </body>
