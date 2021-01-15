@@ -19,6 +19,8 @@
     <h3 class="quizHeader">Language Quiz</h3>
     <h6></h6>
     <form id="formCode">
+      <label for="recipient">Your name</label>
+      <input id="recipient" class="form-control" type="text">
       <div class="question1">
         <h4 class="questionHeading">What is your favorite animal from this list?</h4>
         <select class="form-control" id="animal" style="max-width: 40%;">
@@ -88,18 +90,18 @@
       <div class="results">
         <span class="close">X</span>
         <p id="Csharp">
-          C# is the language for you. Grab your keyboard and <a
+          <span class="userName"></span>, C# is the language for you. Grab your keyboard and <a
             href="https://docs.microsoft.com/en-us/dotnet/csharp/">jam</a>!
         </p>
         <p id="python">
-          You are one with the snake. You should slither into <a href="https://www.python.org">Python</a>.
+          <span class="userName"></span>, you are one with the snake. You should slither into <a href="https://www.python.org">Python</a>.
         </p>
         <p id="swift">
-          You've got the need, the need for Swift. Check out these <a
+          <span class="userName"></span>, you've got the need, the need for Swift. Check out these <a
             href="https://developer.apple.com/swift/">resources</a>.
         </p>
         <p id="javascript">
-          I am sensing JavaScript in your future. Grab a coffee and <a href="https://www.javascript.com">check this out</a>.
+          <span class="userName"></span>, I am sensing JavaScript in your future. Grab a coffee and <a href="https://www.javascript.com">check this out</a>.
         </p>
       </div>
     </div>

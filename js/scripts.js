@@ -5,6 +5,8 @@ $(document).ready(function () {
     $("#python").hide();
     $("#swift").hide();
     $("#javascript").hide();
+    const userName = $("input#recipient").val();
+    $(".userName").text(userName);
     const animal = parseInt($("#animal").val());
     const snakes = $("input:radio[name=snakes]:checked").val();
     const music = $("input:radio[name=music]:checked").val();
