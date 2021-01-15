@@ -24,22 +24,22 @@ $(document).ready(function () {
       $("#javascript").show();
     }
 
-    if (animal > 0){
-    let modal = document.getElementById("resultsModal");
-    let span = document.getElementsByClassName("close")[0];
+    if (animal > 0) {
+      let modal = document.getElementById("resultsModal");
+      let span = document.getElementsByClassName("close")[0];
 
-    modal.style.display = "block";
-    
-    span.onclick = function () {
-      modal.style.display = "none";
-    }
-    window.onclick = function (event) {
-      if (event.target == modal) {
+      modal.style.display = "block";
+
+      span.onclick = function () {
         modal.style.display = "none";
       }
+      window.onclick = function (event) {
+        if (event.target == modal) {
+          modal.style.display = "none";
+        }
+      }
+      $("body").css("background-color", favoriteColor);
     }
-    $("body").css("background-color", favoriteColor);
-  }
-  formCode.reset();
+    formCode.reset();
   });
 });

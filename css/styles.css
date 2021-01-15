@@ -2,19 +2,25 @@
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   text-align: center;
   background-color: wheat;
+  border-radius: 25px;
 }
 .intro {
-  margin-top: 25px;
+  margin-top: 50px;
   font-family: Arial, Helvetica, sans-serif;
 }
 .quizHeader {
   margin: auto;
-  margin-bottom: 25px;
+  margin-bottom: 15px;
   width: 250px;
   text-align: center;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   background-color: lightseagreen;
   border: 3px solid black;
+}
+h6 {
+  background-color: black;
+  border: 3px solid black;
+  margin: 15px;
 }
 .intro {
   font-family: Arial, Helvetica, sans-serif;
@@ -24,21 +30,23 @@
 }
 .question1 {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  margin-bottom: 25px;
+  margin-bottom: 5px;
   padding-bottom: 20px;
   padding-right: 25px;
   padding-top: 20px;
   padding-left: 25px;
   background-color: thistle;
+  border-radius: 25px;
 }
 .question2 {  
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  margin-bottom: 25px;
+  margin-bottom: 5px;
   padding-bottom: 20px;
   padding-right: 25px;
   padding-top: 20px;
   padding-left: 25px;
-  background-color: lightgrey
+  background-color: lightgrey;
+  border-radius: 25px;
 }
 .btn {
   margin-bottom: 25px;
