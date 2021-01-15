@@ -1,7 +1,4 @@
 $(document).ready(function () {
-  
-  
-  
   $("#formCode").submit(function (event) {
     event.preventDefault();
     $("#Csharp").hide();
@@ -13,7 +10,7 @@ $(document).ready(function () {
     const music = $("input:radio[name=music]:checked").val();
     const fast = $("input:radio[name=fast]:checked").val();
     const favoriteColor = $("#color").val();
-    
+
     if (animal === 2 && snakes === "no") {
       $("#python").show();
     } else if (animal === 1 && music === "yes") {
@@ -23,27 +20,19 @@ $(document).ready(function () {
     } else {
       $("#javascript").show();
     }
-    $("body").css("background-color", favoriteColor);
-    
-    
-    
-    
-  });
-  let modal = document.getElementById("resultsModal");
-  let btn = document.getElementById("resultsButton");
-  var span = document.getElementsByClassName("close")[0];
-  
-  btn.onclick = function() {
+    let modal = document.getElementById("resultsModal");
+    let span = document.getElementsByClassName("close")[0];
+
     modal.style.display = "block";
-  }
-  span.onclick = function() {
-    modal.style.display = "none";
-  }
-  window.onclick = function(event) {
-    if (event.target == modal) {
+    
+    span.onclick = function () {
       modal.style.display = "none";
     }
-  }
-  
-  
+    window.onclick = function (event) {
+      if (event.target == modal) {
+        modal.style.display = "none";
+      }
+    }
+    $("body").css("background-color", favoriteColor);
+  });
 });
