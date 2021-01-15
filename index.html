@@ -11,75 +11,91 @@
 
 <body>
   <div class="container">
-    <h1 class="heading">Automated Programming Language Determinator</h1>
-    <p class="intro">If you are unsure about which programming language is right for you, consider taking the following
-      quiz. Answer the questions below and click the button to receive a recommendation.</p>
+    <div class="jumbotron">
+      <h1 class="heading">Automated Programming Language Determinator</h1>
+      <p class="intro">If you are unsure about which programming language is right for you, consider taking the
+        following quiz. Answer the questions below and click the button to receive a recommendation.</p>
+    </div>
     <h3 class="quizHeader">Quiz</h3>
     <form id="formCode">
-      <h4 class="questions">What is your favorite animal from this list?</h4>
-      <select class="form-control" id="animal">
-        <option value="1">Songbird</option>
-        <option value="2">Snake</option>
-        <option value="3">Hedgehog</option>
-        <option value="4">Mouse</option>
-      </select>
-      <h4 class="questions">Are you afraid of snakes?</h4>
-      <div class="radio">
-        <label>
-          <input type="radio" name="snakes" value="yes" checked>
-          Yes
-        </label>
+      <div class="question">
+        <h4 class="questionheading">What is your favorite animal from this list?</h4>
+        <select class="form-control" id="animal">
+          <option value="1">Songbird</option>
+          <option value="2">Snake</option>
+          <option value="3">Hedgehog</option>
+          <option value="4">Mouse</option>
+        </select>
       </div>
-      <div class="radio">
-        <label>
-          <input type="radio" name="snakes" value="no" checked>
-          No
-        </label>
+      <div class="question">
+        <h4 class="questionheading">Are you afraid of snakes?</h4>
+        <div class="radio">
+          <label>
+            <input type="radio" name="snakes" value="yes" checked>
+            Yes
+          </label>
+        </div>
+        <div class="radio">
+          <label>
+            <input type="radio" name="snakes" value="no" checked>
+            No
+          </label>
+        </div>
       </div>
-      <h4 class="questions">Are you a musician?</h4>
-      <div class="radio">
-        <label>
-          <input type="radio" name="music" value="yes" checked>
-          Yes
-        </label>
+      <div class="question">
+        <h4 class="questions">Are you a musician?</h4>
+        <div class="radio">
+          <label>
+            <input type="radio" name="music" value="yes" checked>
+            Yes
+          </label>
+        </div>
+        <div class="radio">
+          <label>
+            <input type="radio" name="music" value="no" checked>
+            No
+          </label>
+        </div>
       </div>
-      <div class="radio">
-        <label>
-          <input type="radio" name="music" value="no" checked>
-          No
-        </label>
+      <div class="question">
+        <h4 class="questionheading">Gotta go fast?</h4>
+        <div class="radio">
+          <label>
+            <input type="radio" name="fast" value="yes" checked>
+            Yes
+          </label>
+        </div>
+        <div class="radio">
+          <label>
+            <input type="radio" name="fast" value="no" checked>
+            No
+          </label>
+        </div>
       </div>
-      <h4 class="questions">Gotta go fast?</h4>
-      <div class="radio">
-        <label>
-          <input type="radio" name="fast" value="yes" checked>
-          Yes
-        </label>
-      </div>
-      <div class="radio">
-        <label>
-          <input type="radio" name="fast" value="no" checked>
-          No
-        </label>
-      </div>
-      <div class="form-group">
-        <label for="color">What is your favorite color?</label>
-        <input id="color" class="form-control" type="color">
+      <div class="question">
+        <div class="form-group">
+          <label for="color">
+            <h4 class="questionheading">What is your favorite color?</h4>
+          </label>
+          <input id="color" class="form-control" type="color">
+        </div>
       </div>
       <button type="submit" class="btn btn-primary">Get Results</button>
     </form>
-    <p id="Csharp">
-      C# is the language for you!
-    </p>
-    <p id="python">
-      You are one with the snake. You should slither into Python.
-    </p>
-    <p id="swift">
-      You've got the need for Swift.
-    </p>
-    <p id="javascript">
-      I am sensing JavaScript in your future.
-    </p>
+    <div class="results">
+      <p id="Csharp">
+        C# is the language for you!
+      </p>
+      <p id="python">
+        You are one with the snake. You should slither into Python.
+      </p>
+      <p id="swift">
+        You've got the need for Swift.
+      </p>
+      <p id="javascript">
+        I am sensing JavaScript in your future.
+      </p>
+    </div>
   </div>
 </body>
 
