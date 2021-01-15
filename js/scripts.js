@@ -1,6 +1,10 @@
 $(document).ready(function () {
   $("#formCode").submit(function (event) {
     event.preventDefault();
+    $("#Csharp").hide();
+    $("#python").hide();
+    $("#swift").hide();
+    $("#javascript").hide();
     const animal = parseInt($("#animal").val());
     const snakes = $("input:radio[name=snakes]:checked").val();
     const music = $("input:radio[name=music]:checked").val();
@@ -36,5 +40,6 @@ $(document).ready(function () {
     }
     $("body").css("background-color", favoriteColor);
   }
+  formCode.reset();
   });
 });
