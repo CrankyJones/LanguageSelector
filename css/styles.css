@@ -1,12 +1,13 @@
-.Csharp {
+#Csharp {
   display: none;
 }
-.python {
+#python {
   display: none;
 }
-.swift {
+#swift {
   display: none;
 }
-.javascript {
+#javascript {
   display: none;
+  
 }
