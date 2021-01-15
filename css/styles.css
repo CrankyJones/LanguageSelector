@@ -59,16 +59,16 @@
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   font-size: x-large;
   font-weight: bolder;
-  background-color: #000000;
-  color: greenyellow;
+  background-color: lightgrey;
+  color: black;
   margin: 20% auto;
   padding: 25px;
-  border: 2px solid rgb(255, 255, 255);
+  border: 2px solid black;
   width: 75%;
 }
 
 .close {
-  color: grey;
+  color: darkgrey;
   float: right;
   font-size: 28px;
   font-weight: bold;
@@ -76,7 +76,7 @@
 }
 .close:hover,
 .close:focus {
-  color:white;
+  color:black;
   cursor: pointer;
 }
 
