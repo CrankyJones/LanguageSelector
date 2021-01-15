@@ -5,18 +5,21 @@ $(document).ready(function () {
     $("#python").hide();
     $("#swift").hide();
     $("#javascript").hide();
+
     const userName = $("input#recipient").val();
     $(".userName").text(userName);
+
     const animal = parseInt($("#animal").val());
     const snakes = $("input:radio[name=snakes]:checked").val();
     const music = $("input:radio[name=music]:checked").val();
     const fast = $("input:radio[name=fast]:checked").val();
     const favoriteColor = $("#color").val();
 
-    if (animal === 0) {
+    if (userName === "") {
+      alert("Please enter your name.")
+    } else if (animal === 0) {
       alert("Please choose an animal.")
-    }
-    else if (animal === 2 && snakes === "no") {
+    } else if (animal === 2 && snakes === "no") {
       $("#python").show();
     } else if (animal === 1 && music === "yes") {
       $("#Csharp").show();
@@ -42,6 +45,6 @@ $(document).ready(function () {
       }
       $("body").css("background-color", favoriteColor);
     }
-    formCode.reset();
+    //formCode.reset();
   });
 });
