@@ -20,6 +20,6 @@ $(document).ready(function () {
     } else {
       $("#javascript").show();
     }
-    $(body).css(background-color, favoriteColor);
+    $("body").css("background-color", favoriteColor);
   });
 });
