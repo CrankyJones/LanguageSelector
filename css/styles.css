@@ -4,44 +4,32 @@
   background-color: wheat;
 }
 .quizHeader {
+  margin: auto;
+  margin-bottom: 25px;
+  width: 250px;
   text-align: center;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   background-color: lightseagreen;
+  border: 3px solid black;
 }
 .question1 {
+  margin-bottom: 25px;
   padding-bottom: 20px;
   padding-right: 250px;
   padding-top: 20px;
   padding-left: 25px;
   background-color: thistle;
 }
-.question2 {
+.question2 {  
+  margin-bottom: 25px;
   padding-bottom: 20px;
   padding-right: 250px;
   padding-top: 20px;
   padding-left: 25px;
   background-color: lightgrey
 }
-.question3 {
-  padding-bottom: 20px;
-  padding-right: 250px;
-  padding-top: 20px;
-  padding-left: 25px;
-  background-color: thistle;
-}
-.question4 {
-  padding-bottom: 20px;
-  padding-right: 250px;
-  padding-top: 20px;
-  padding-left: 25px;
-  background-color:lightgrey;
-}
-.question5 {
-  padding-bottom: 20px;
-  padding-right: 250px;
-  padding-top: 20px;
-  padding-left: 25px;
-  background-color: thistle;
+.btn {
+  margin-bottom: 25px;
 }
 .results{
   padding-bottom: 20px;
@@ -50,7 +38,6 @@
   padding-left: 25px;
   background-color: white;
   font-size: xx-large;}
-
 #Csharp {
   display: none;
 }
@@ -61,7 +48,6 @@
   display: none;
 }
 #javascript {
-  display: none;
-  
+  display: none;  
 }
 

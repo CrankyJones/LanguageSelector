@@ -9,7 +9,7 @@ A demonstration of JavaScript and JQuery with styling using Bootstrap with CSS.
 * Bootstrap
 
 ### **Description**
-This project is a webpage that recieves answers from the user and based on those answers prescribes a programming language.
+This project is a webpage that recieves answers from the user and based on those answers prescribes a programming language. There is a list input, 3 radio button questions, and a color selector.
 
 ### **Setup/Installation**
 * Clone the repository to your desktop from GitHub
