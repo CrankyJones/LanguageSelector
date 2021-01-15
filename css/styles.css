@@ -3,6 +3,10 @@
   text-align: center;
   background-color: wheat;
 }
+.intro {
+  margin-top: 25px;
+  font-family: Arial, Helvetica, sans-serif;
+}
 .quizHeader {
   margin: auto;
   margin-bottom: 25px;
@@ -12,18 +16,26 @@
   background-color: lightseagreen;
   border: 3px solid black;
 }
+.intro {
+  font-family: Arial, Helvetica, sans-serif;
+}
+.questionHeading {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
 .question1 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
   margin-bottom: 25px;
   padding-bottom: 20px;
-  padding-right: 250px;
+  padding-right: 25px;
   padding-top: 20px;
   padding-left: 25px;
   background-color: thistle;
 }
 .question2 {  
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
   margin-bottom: 25px;
   padding-bottom: 20px;
-  padding-right: 250px;
+  padding-right: 25px;
   padding-top: 20px;
   padding-left: 25px;
   background-color: lightgrey
@@ -33,7 +45,7 @@
 }
 .results{
   padding-bottom: 20px;
-  padding-right: 200px;
+  padding-right: 25px;
   padding-top: 20px;
   padding-left: 25px;
   background-color: white;
