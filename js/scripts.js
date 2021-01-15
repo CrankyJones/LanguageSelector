@@ -1,3 +1,16 @@
+let modal = $("resultsModal");
+let btn = $("resultsButton");
+
+btn.onclick = function() {
+  modal.style.display = "block";
+}
+
+
+
+
+
+
+
 $(document).ready(function () {
   $("#formCode").submit(function (event) {
     event.preventDefault();

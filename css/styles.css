@@ -43,6 +43,12 @@
 .btn {
   margin-bottom: 25px;
 }
+.modal{
+  display: none;
+  position: fixed;
+  z-index: 1;
+  
+}
 .results{
   padding-bottom: 20px;
   padding-right: 25px;
