@@ -29,7 +29,7 @@ $(document).ready(function () {
       $("#javascript").show();
     }
 
-    if (animal > 0) {
+    if (animal != 0 && userName != "") {
       let modal = document.getElementById("resultsModal");
       let span = document.getElementsByClassName("close")[0];
 
@@ -44,7 +44,7 @@ $(document).ready(function () {
         }
       }
       $("body").css("background-color", favoriteColor);
+      formCode.reset();
     }
-    //formCode.reset();
   });
 });
