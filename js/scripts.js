@@ -31,11 +31,11 @@ $(document).ready(function () {
 
     if (animal != 0 && userName != "") {
       let modal = document.getElementById("resultsModal");
-      let span = document.getElementsByClassName("close")[0];
+      let closeX = document.getElementsByClassName("close")[0];
 
       modal.style.display = "block";
 
-      span.onclick = function () {
+      closeX.onclick = function () {
         modal.style.display = "none";
       }
       window.onclick = function (event) {
